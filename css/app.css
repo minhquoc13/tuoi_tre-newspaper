@@ -150,6 +150,8 @@ h6 {
 .hero-hot {
   background-color: #edefee;
   max-width: 970px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .hero-hot-title {
   margin-bottom: 10px;
