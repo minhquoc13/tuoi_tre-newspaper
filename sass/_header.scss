@@ -1,0 +1,38 @@
+.header {
+    padding-top: 10px;
+    &-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-left {
+        max-width: 250px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px 0;
+    }
+    &-right {
+        max-width: 250px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px 0;
+    }
+    &-list {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    &-item {
+        display: flex;
+        align-items: center;
+        gap: 0 15px;
+    }
+    &-item:nth-child(2),
+    &-item:nth-child(3) {
+        margin-left: 46px;
+    }
+}

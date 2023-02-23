@@ -1,0 +1,33 @@
+body {
+    background-color: $bg-color;
+    font-size: 18px;
+    font-family: $primary-font;
+    font-weight: 400;
+    color: $text-color;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.number_page-link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(22/18);
+    color: $color-pink;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
