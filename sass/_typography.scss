@@ -19,6 +19,10 @@
 
 .text {
     font-family: $primary-font;
+    &-16 {
+        font-size: 16px;
+        line-height: calc(20/16);
+    }
     &-18 {
         font-size: 18px;
         line-height: calc(22/18);
@@ -63,6 +67,9 @@
     }
     &-center {
         text-align: center;
+    }
+    &-justify {
+        text-align: justify;
     }
     &-pink {
         color: $color-pink;

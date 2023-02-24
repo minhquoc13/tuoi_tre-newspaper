@@ -32,6 +32,10 @@ h6 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .title {
   font-family: "Roboto", sans-serif;
 }
@@ -53,6 +57,10 @@ h6 {
 
 .text {
   font-family: "Inter", sans-serif;
+}
+.text-16 {
+  font-size: 16px;
+  line-height: 1.25;
 }
 .text-18 {
   font-size: 18px;
@@ -97,6 +105,9 @@ h6 {
 }
 .text-center {
   text-align: center;
+}
+.text-justify {
+  text-align: justify;
 }
 .text-pink {
   color: #EB0083;
@@ -173,7 +184,7 @@ h6 {
   justify-content: space-between;
 }
 .hero-news {
-  max-width: 400px;
+  max-width: 390px;
   padding-top: 10px;
   border-top: 5px solid #edefee;
 }
@@ -194,8 +205,85 @@ h6 {
   gap: 0 10px;
   margin-bottom: 40px;
 }
+.hero-news-item-icon-pointer {
+  width: 20px;
+  height: 20px;
+}
+.hero-news-item-image {
+  width: 100%;
+}
 .hero-news-item-desc {
   text-align: justify;
+}
+
+.bottom-news {
+  margin-top: 35px;
+  padding-bottom: 50px;
+}
+.bottom-news-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom-news-left {
+  display: flex;
+  align-items: center;
+  max-width: 810px;
+  gap: 0 20px;
+}
+.bottom-news-left-heading {
+  margin-bottom: 5px;
+}
+.bottom-news-left .border {
+  width: 50%;
+  border-bottom: 5px solid #edefee;
+}
+.bottom-news-left-content {
+  max-width: 240px;
+}
+.bottom-news-left .number_page-link {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: end;
+}
+.bottom-news-left-desc {
+  margin-bottom: 20px;
+}
+.bottom-news-left-image_author {
+  display: flex;
+  justify-content: end;
+}
+.bottom-news-right {
+  max-width: 500px;
+}
+.bottom-news-right-content {
+  margin-top: 10px;
+  padding: 8px 14px 14px;
+  background-color: #FEE9F0;
+}
+.bottom-news-right-heading {
+  max-width: 252px;
+  margin-bottom: 5px;
+  margin: 0 auto 5px;
+}
+.bottom-news-right-author {
+  display: flex;
+  align-items: center;
+  gap: 0 8px;
+  justify-content: end;
+  margin-bottom: 5px;
+}
+.bottom-news-right-author img {
+  width: 15px;
+  height: 15px;
+}
+.bottom-news-right-desc {
+  margin-bottom: 10px;
+}
+.bottom-news-right .number_page-link {
+  display: flex;
+  justify-content: end;
 }
 
 /*# sourceMappingURL=app.css.map */
