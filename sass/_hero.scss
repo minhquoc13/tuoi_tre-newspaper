@@ -1,64 +1,66 @@
 .hero {
-    margin-top: 12px;
-    &-container {
+  margin-top: 12px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-hot {
+    background-image: url("https://www.color-name.com/color-image?c=F5F2E8&desktop");
+
+    background-color: $hero-color;
+    max-width: 970px;
+    padding-left: 10px;
+    padding-right: 10px;
+    &-title {
+      margin-bottom: 10px;
+    }
+    &-desc {
+      margin-bottom: 10px;
+    }
+    &-image {
+      margin-top: 20px;
+      margin-bottom: 8px;
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+    &-image-info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  &-news {
+    max-width: 390px;
+    padding-top: 10px;
+    border-top: 5px solid $hero-color;
+    &-item:last-child {
+      margin-bottom: 0;
+    }
+    &-item {
+      padding: 0 0 0 5px;
+      border-bottom: 3px solid $color-pink;
+      margin-bottom: 20px;
+      &-title {
+        margin-bottom: 15px;
+      }
+      &-topic {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
+        gap: 0 10px;
+        margin-bottom: 40px;
+      }
+      &-icon-pointer {
+        width: 20px;
+        height: 20px;
+      }
+      &-image {
+        width: 100%;
+      }
+      &-desc {
+        text-align: justify;
+      }
     }
-    &-hot {
-        background-color: $hero-color;
-        max-width: 970px;
-        padding-left: 10px;
-        padding-right: 10px;
-        &-title {
-            margin-bottom: 10px;
-        }
-        &-desc {
-            margin-bottom: 10px;
-        }
-        &-image {
-            margin-top: 20px;
-            margin-bottom: 8px;
-            img {
-                display: block;
-                width: 100%;
-            }
-        }
-        &-image-info {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-    }
-    &-news {
-        max-width: 390px;
-        padding-top: 10px;
-        border-top: 5px solid $hero-color;
-        &-item:last-child {
-            margin-bottom: 0;
-        }
-        &-item {
-            padding: 0 0 0 5px;
-            border-bottom: 3px solid $color-pink;
-            margin-bottom: 20px;
-            &-title {
-                margin-bottom: 15px;
-            }
-            &-topic {
-                display: flex;
-                align-items: center;
-                gap: 0 10px;
-                margin-bottom: 40px;
-            }
-            &-icon-pointer {
-                width: 20px;
-                height: 20px;
-            }
-            &-image {
-                width: 100%;
-            }
-            &-desc {
-                text-align: justify;
-            }
-        }
-    }
+  }
 }

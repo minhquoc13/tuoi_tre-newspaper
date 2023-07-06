@@ -4,6 +4,7 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: black;
+  background-image: url("https://www.color-name.com/color-image?c=F5F2E8&desktop");
 }
 
 .wrapper {
@@ -159,6 +160,7 @@ p {
   justify-content: space-between;
 }
 .hero-hot {
+  background-image: url("https://www.color-name.com/color-image?c=F5F2E8&desktop");
   background-color: #edefee;
   max-width: 970px;
   padding-left: 10px;
@@ -258,6 +260,7 @@ p {
   max-width: 500px;
 }
 .bottom-news-right-content {
+  background-image: url("https://www.color-name.com/color-image?c=F5F2E8&desktop");
   margin-top: 10px;
   padding: 8px 14px 14px;
   background-color: #FEE9F0;
